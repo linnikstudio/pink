@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>cateringcom</title>
+    <title>pink</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="css/normalize.css.css" rel="stylesheet">
@@ -12,19 +12,30 @@
 </head>
 <body>
     <div class="wrap">
-        <header class="">
-            <a href="#" class="header-logo">PINK</a>
-            <a href="#" class="header-menu"><img src="images/icon-menu.png" alt="icon-menu"></a>
+        <header>
+            <div class="logo">
+                <a href="#">PINK</a>
+            </div>
+            <nav>
+                <a href="#" class="header-menu"><img src="images/icon-menu.png" alt="icon-menu"></a>
+                <ul class="menu">
+                    <li><a href="#">Пункт1</a></li>
+                    <li><a href="#">Пункт2</a></li>
+                    <li><a href="#">Пункт3</a></li>
+                    <li><a href="#">Пункт4</a></li>
+                    <li><a href="#">Пункт5</a></li>
+                </ul>
+            </nav>
         </header>
         <div class="slogan">
             <h2>Взгляните на жизнь иначе!</h2>
         </div>
         <div class="download">
-            <button>Скачать приложение</button>
+            <a href="#" class="download-button">Скачать приложение</a>
             <div class="download-icon">
-                <img src="images/icon-apple.png" alt="icon-apple">
-                <img src="images/icon-android.png" alt="icon-android">
-                <img src="images/icon-windows.png" alt="icon-windows">
+                <a href="#" class="download-icon-apple"><img src="images/icon-apple.png" alt="icon-apple"></a>
+                <a href="#" class="download-icon-android"><img src="images/icon-android.png" alt="icon-android"></a>
+                <a href="#" class="download-icon-windows"><img src="images/icon-windows.png" alt="icon-windows"></a>
             </div>
             <p>Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8</p>
         </div>
@@ -33,18 +44,18 @@
             <h2>Нам есть, что вам предложить!</h2>
         </div>
         <div class="content">
-            <div class="content-box">
-                <h3>Поднимает настроение</h3>
+            <section class="content-box">
+                <header>Поднимает настроение</header>
                 <p>Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
-            </div>
-            <div class="content-box">
-                <h3>Меняет мир вокруг</h3>
+            </section>
+            <section class="content-box">
+                <header>Меняет мир вокруг</header>
                 <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-            </div>
-            <div class="content-box">
-                <h3>Заводит новых друзей</h3>
+            </section>
+            <section class="content-box">
+                <header>Заводит новых друзей</header>
                 <p>Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
-            </div>
+            </section>
             <img src="images/mobile.png" alt="mobile">
         </div>
         <div class="slider-1">
@@ -101,7 +112,7 @@
                 </div>
             </div>
         </div>
-        <div class="content-footer">
+        <footer>
             <h2>Остались вопросы? Свяжитесь с нами!</h2>
             <div class="content-footer-box">
                 <h3>Звоните:</h3>
@@ -116,7 +127,7 @@
                 <p>Санкт-Петербург, Невский проспект, д. 20</p>
             </div>
             <img src="images/map.jpg" alt="map">
-        </div>
+        </footer>
     </div>
 </body>
 </html>
