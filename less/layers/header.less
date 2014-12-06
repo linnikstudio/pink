@@ -1,0 +1,85 @@
+/* *** header***  */
+.page-header{
+	background: url('../img/bg-header.jpg') no-repeat;
+	min-height: 458px;
+	&__box{
+		background: url('../img/opacity.png') repeat;
+		.page-logo{
+			width: 110px;
+			float: left;
+			h1{
+				font-size: 2.28em;
+				font-family: 'GothamRounded-Book';
+				margin: 0;
+			}
+			&__title{
+				color: #fff;
+				text-decoration: none;
+				display: block;
+				padding: 22px 20px 20px 17px;
+				font-weight: normal;
+			}
+		}
+		.page-menu{
+			float: right;
+			width: 210px;
+			position: relative;
+			&__expand{
+				background: url('../img/sprite.png') no-repeat 0 -327px;
+				cursor: pointer;
+				width: 50px;
+				height: 24px;
+				text-indent: -9999px;
+				display: block;
+				float: right;
+				margin-right: 20px;
+				margin-top: 20px;
+			}
+			&__list{
+				display: none;
+				position: absolute;
+				list-style: none;
+				width: 320px;
+				margin-left: -110px;
+				background: #283645;
+				left: 0;
+				top: 67px;
+				li{
+					border-bottom: 1px solid #000;
+					a{
+						display: block;
+						text-decoration: none;
+						font-size: @title-size;
+						font-family: @font-family-base-bold;
+						color: #fff;
+						text-align: center;
+						padding:20px 0 20px 0;
+					}
+				}
+			}
+		}
+	}
+	&__box.active{
+		background-image: none;
+		background: #283645;
+        border-bottom: 1px solid #000;
+        .page-menu__expand{
+        	background: url('../img/icon-close.png');
+        	background-repeat: no-repeat;
+        	margin-right: -8px;
+        	margin-top: 22px;
+        }
+	}
+	.page-slogan h2{
+		margin-top: 20px;
+		text-align: center;
+		color: #fff;
+		font-family: @font-family-base-light;
+		font-size: 1.71em;
+		line-height: 1.16em;
+		font-weight: normal;
+		margin-bottom: 0;
+	}
+}
+
+/* *** end header***  */
